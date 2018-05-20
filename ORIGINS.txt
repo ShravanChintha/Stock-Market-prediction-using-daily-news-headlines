@@ -1,0 +1,18 @@
+This project is a Kaggle competition which tries to predict the stock market prediction 
+based on the articles of that day.
+
+The source project explains about the methodologies in 
+which they are trying to predict the performance of Dow Jones Index. 
+
+The source project 
+define about a baseline in which  a unigram and word frequency based model is employed 
+having an accuracy of 46%
+
+
+The source project sticks to word frequency based vectorization 
+and basic machine learning techniques. 
+
+The source project does not consider the influence 
+of the stop word or seldom appearing words
+
+ 

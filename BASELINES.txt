@@ -1,0 +1,61 @@
+To compute a baseline model, we used logistic regression model with bag of words technique.
+Before applying this model, we divided the data into training and testing sets with 
+75/25 split. Since the data is based on dates from 2008 to 2016, data is divided into 
+train/test sets based in date. Training set is defined  from  dates  08/08/2008  to  
+07/14/2014,  test  set  is  defined  from dates  07/15/2014  to 07/01/2016. That is 1492 
+records in train set and 497 records in test set. 
+
+In the base line model, the single word
+frequency is computed and a unigram approach is deployed.
+
+
+Unigram model 
+Top ten words according to the baseline model       
+Coefficient      Word
+
+3728     0.628725      self
+
+4647     0.533285      wing
+
+2090     0.533244  hospital
+
+2392     0.528196     kills
+
+4387     0.518748      turn
+
+284      0.516599     among
+
+762      0.514192    cartel
+
+2929     0.508684  olympics
+
+1146     0.508380  damascus
+
+3585     0.504063      rise
+
+Last ten words according to the baseline model       
+Coefficient       Word
+
+3770    -0.538371        sex
+
+1163    -0.542079         de
+
+990     -0.545630      congo
+
+4206    -0.554574     terror
+
+4047    -0.562809   students
+
+3653    -0.570902  sanctions
+
+2100    -0.571660      hours
+
+506     -0.603628      begin
+
+4301    -0.610774      total
+
+3626    -0.663518        run
+
+
+
+The baseline model accuracy 0.4607645875251509

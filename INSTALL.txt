@@ -1,0 +1,5 @@
+pip install pandas
+pip install random
+pip install sklearn
+pip install textblob
+pip install xgboost
